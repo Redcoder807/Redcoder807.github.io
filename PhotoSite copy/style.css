@@ -1,0 +1,44 @@
+/* Importing a Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    background-color: lightgray;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+
+    font-weight: bold;
+    /* font-weight: 700; */
+
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+    /* vw sets the font/text size based on the width of the viewport (AKA Browser window) */
+    font-size: 2vw;
+    
+    text-align: center;
+    border-bottom: 5px solid darkgray;
+    padding-bottom: 10px;
+    
+    /* Width of two images */
+    /* 22.5 * 2 = 45 */
+    /* Width between two images */
+    /* 1.25 * 2 = 2.5 */
+    /* Width of bottom border of paragraph element */
+    /* 45 + 2.5 = 47.5 */
+    width: 47.5%;
+
+    /* "margin: auto" centers the P element horizontally inside the body element */
+    margin: 10px auto;
+}
+
+img {
+    /* 22.5 *4 = 90 */
+    width: 22.5%;
+    /* 1.25 *8 = 10 */
+    margin: 1.25%;
+
+    /* The Float CSS property places an element on the left or right side of its container/parent element allowing text to wrap around it. The element is removed normal document flow. Also, removes the space between img (AKA Image) elements. */
+    float: left;
+}
